@@ -1,0 +1,10 @@
+export CLUSTERNAME=slony_example
+export MASTERDBNAME=postgres
+export SLAVEDBNAME=postgres
+export MASTERHOST=192.168.0.2
+export SLAVEHOST=192.168.0.5
+export REPLICATIONUSER=postgres
+export MASTERPASSWORD=nAd4pat0
+export SLAVEPASSWORD=nAd4pat0
+export PORTMASTER=5432
+export PORTSLAVE=5432

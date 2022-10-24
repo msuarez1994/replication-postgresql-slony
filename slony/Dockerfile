@@ -1,7 +1,5 @@
 FROM postgres:10-alpine
 
-COPY script.sh /root/script.sh
-
 RUN set -eux; \
     apk add --no-cache --virtual .build-deps \
 		bison \
