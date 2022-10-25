@@ -1,4 +1,5 @@
-FROM postgres:10-alpine
+# FROM postgres:10-alpine
+FROM postgres:12.12-alpine
 
 COPY script.sh /root/script.sh
 COPY config.txt /root/config.txt
